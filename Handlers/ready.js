@@ -5,6 +5,6 @@ module.exports = {
 	name: Events.ClientReady,
 	once: true,
 	execute(client) {
-		console.log(color.green(`🌐 ⟯ ${client.user.username} has been started !`));
+		console.log(color.blue(`🌐 ⟯ ${client.user.username} has been started !`));
 	},
 };
