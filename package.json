@@ -1,0 +1,29 @@
+{
+  "name": "hosticube-protection",
+  "version": "2.2.5",
+  "description": "A free and open-source Discord bot for server protection and logging",
+  "homepage": "https://github.com/HostiCube/hosticube-protection#readme",
+  "bugs": {
+    "url": "https://github.com/HostiCube/hosticube-protection/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HostiCube/hosticube-protection.git"
+  },
+  "license": "Apache-2.0",
+  "author": "selunik",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "colors": "^1.4.0",
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.15.3",
+    "path": "^0.12.7"
+  }
+}
